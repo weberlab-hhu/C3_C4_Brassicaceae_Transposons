@@ -139,8 +139,8 @@ perl EDTA.pl --genome <genome> --anno 1 --sensitive 1 --overwrite 0
 ```
 
 EDTA will produce multiple outputs:
-- for FRAGMENTED TEs use: .fasta.mod.EDTA.TEanno.gff3 file
-- for INTACT TEs use: .fasta.mod.EDTA.intact.gff3 file
+- for FRAGMENTED TEs use: `.fasta.mod.EDTA.TEanno.gff3` file
+- for INTACT TEs use: `.fasta.mod.EDTA.intact.gff3` file
 make sure to delete headers starting with ### in the respecrtive files, they can't be read by numpy!
 
 ## EDTA results analysis:
