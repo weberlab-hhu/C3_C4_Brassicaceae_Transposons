@@ -1,0 +1,45 @@
+{
+        "load_model_path": {
+        "_type": "choice",
+        "_value": [
+                   "<path_to>/best_model_fullmoon_211117_17.h5"
+                   ]
+
+   },
+        "test_data": {
+        "_type": "choice",
+        "_value": [
+                   "<path_to>/h5s/<researcher>/b_gravinae/test_data.h5",
+                   "<path_to>/h5s/<researcher>/b_gravinae_unkown/test_data.h5",
+                   "<path_to>/h5s/<researcher>/b_juncea/test_data.h5",
+                   "<path_to>/h5s/<researcher>/b_napus/test_data.h5",
+                   "<path_to>/h5s/<researcher>/b_nigra/test_data.h5",
+                   "<path_to>/h5s/<researcher>/b_oleracea/test_data.h5",
+                   "<path_to>/h5s/<researcher>/b_rapa/test_data.h5",
+                   "<path_to>/h5s/<researcher>/b_repanda/test_data.h5",
+                   "<path_to>/h5s/<researcher>/b_tournefortii/test_data.h5",
+                   "<path_to>/h5s/<researcher>/c_annua/test_data.h5",
+                   "<path_to>/h5s/<researcher>/c_gynandra/test_data.h5",
+                   "<path_to>/h5s/<researcher>/d_acris/test_data.h5",
+                   "<path_to>/h5s/<researcher>/d_erucoides/test_data.h5",
+                   "<path_to>/h5s/<researcher>/d_harra/test_data.h5",
+                   "<path_to>/h5s/<researcher>/d_muralis/test_data.h5",
+                   "<path_to>/h5s/<researcher>/d_tenuifolia/test_data.h5",
+                   "<path_to>/h5s/<researcher>/d_tenuisiliqua/test_data.h5",
+                   "<path_to>/h5s/<researcher>/d_viminea/test_data.h5",
+                   "<path_to>/h5s/<researcher>/e_sativa/test_data.h5",
+                   "<path_to>/h5s/<researcher>/g_gynandra/test_data.h5",
+                   "<path_to>/h5s/<researcher>/h_incana3/test_data.h5",
+                   "<path_to>/h5s/<researcher>/h_incana/test_data.h5",
+                   "<path_to>/h5s/<researcher>/m_arvensis/test_data.h5",
+                   "<path_to>/h5s/<researcher>/m_moricandioides/test_data.h5",
+                   "<path_to>/h5s/<researcher>/m_nitens/test_data.h5",
+                   "<path_to>/h5s/<researcher>/m_sinaica/test_data.h5",
+                   "<path_to>/h5s/<researcher>/m_spinosa/test_data.h5",
+                   "<path_to>/h5s/<researcher>/m_suffruticosa/test_data.h5",
+                   "<path_to>/h5s/<researcher>/r_raphanistrum/test_data.h5",
+                   "<path_to>/h5s/<researcher>/r_sativus/test_data.h5",
+                   "<path_to>/h5s/<researcher>/s_alba/test_data.h5"]
+    }
+}
+

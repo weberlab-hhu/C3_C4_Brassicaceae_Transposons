@@ -1,0 +1,24 @@
+authorName: ali
+experimentName: helixer_something
+trialConcurrency: 2
+#maxExecDuration: 5h
+maxTrialNum: 10000
+#choice: local, remote, pai
+trainingServicePlatform: local
+searchSpacePath: search_space.json
+#choice: true, false
+useAnnotation: false
+tuner:
+  #choice: TPE, Random, Anneal, Evolution, BatchTuner, BOHB
+  #SMAC (SMAC should be installed through nnictl)
+  builtinTunerName: GridSearch 
+trial:
+  command: python $hppath/helixer/prediction/DanQModel.py -v --val-test-batch-size 25 --predict-phase --nni --pool-size 9 --overlap --overlap-offset=13365 --core-length=53460
+  codeDir: .
+  codeDir: .
+  gpuNum: 1
+localConfig:
+  useActiveGpu: false
+# to accomplish the same with v0.3* the command line above should read
+#  command: python $hppath/helixer/prediction/HybridModel.py -v --val-test-batch-size 25 --predict-phase --nni --pool-size 9 --overlap --overlap-offset=13365 --overlap-core-length=53460
+
