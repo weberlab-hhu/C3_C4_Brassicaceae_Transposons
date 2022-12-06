@@ -147,15 +147,15 @@ make sure to delete headers starting with ### in the respecrtive files, they can
 the [01_EDTA_results.ipynb](scripts/01_EDTA_results.ipynb) notebook can be used to extract information for fragmented and intact TEs, it also contains a hard-coded list with genome sizes. 
 
 ## TE-gene association
-In the [03_annotation_TEs.ipynb](https://github.com/setri100/brassicaceae_TE_analysis/blob/main/scripts/03_annotations_TEs-.ipynb), the .gff3 files fo **INTACT** fragmented are ignored!) TEs are loaded as well as the .gff3 files from Helixer. In a loop for each contig, TEs are associated to the genes by comparing the start and and of the respecitve annotations. <br />
+In the [03_annotation_TEs.ipynb](scripts/03_annotations_TEs-.ipynb), the .gff3 files fo **INTACT** fragmented are ignored!) TEs are loaded as well as the .gff3 files from Helixer. In a loop for each contig, TEs are associated to the genes by comparing the start and and of the respecitve annotations. <br />
 A .csv is file is created for each species seperatedly, containing the TE-gene association hits. 
 To add the Orthogroups, the csv is read again and compared to the Orthofinder hits, just manually add the species with  `A = (orthogroups['enter_species_here'])` .<br />
 The .csv is overwritten with a new table, where the OGs are added. 
 
 ## Mercator
-In the [04_differential_TE_statistics.ipynb](https://github.com/setri100/brassicaceae_TE_analysis/blob/main/scripts/04_differential_TE_statistics_upstream.ipynb), a random representative CDS or protein sequence from each OG is written to a .fasta format file. This file can be uploaded to [Mercator4.0](https://www.plabipd.de/portal/mercator4).
+In the [04_differential_TE_statistics.ipynb](scripts/04_differential_TE_statistics_upstream.ipynb), a random representative CDS or protein sequence from each OG is written to a .fasta format file. This file can be uploaded to [Mercator4.0](https://www.plabipd.de/portal/mercator4).
 
 ## Statistics
-The [differential_TE_statistics.ipynb](https://github.com/setri100/brassicaceae_TE_analysis/blob/main/scripts/04_differential_TE_statistics_upstream.ipynb) notebook first opens the .csv file and filters the location of the associated TEs (upstream/downstream). Next, it opens the f_ogs dataframe that shows, how many TE-gene associations are present in the individual OGs. Transposing the df and adding the CCP gives a matrix (upstream_TE_association_transposed_matrix.xlsx) that can be used for statistics. <br />
-Enrichment analysis is performed in the [differential_TEs_enrichment.ipynb](https://github.com/setri100/brassicaceae_TE_analysis/blob/main/scripts/07_differential_TEs_enrichment.ipynb) notebook
+The [differential_TE_statistics.ipynb](scripts/04_differential_TE_statistics_upstream.ipynb) notebook first opens the .csv file and filters the location of the associated TEs (upstream/downstream). Next, it opens the f_ogs dataframe that shows, how many TE-gene associations are present in the individual OGs. Transposing the df and adding the CCP gives a matrix (upstream_TE_association_transposed_matrix.xlsx) that can be used for statistics. <br />
+Enrichment analysis is performed in the [differential_TEs_enrichment.ipynb](scripts/06_differential_TEs_enrichment.ipynb) notebook
 
