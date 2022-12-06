@@ -144,7 +144,7 @@ EDTA will produce multiple outputs:
 make sure to delete headers starting with ### in the respecrtive files, they can't be read by numpy!
 
 ## EDTA results analysis:
-the [01_EDTA_results.ipynb](01_EDTA_results.ipynb) notebook can be used to extract information for fragmented and intact TEs, it also contains a hard-coded list with genome sizes. 
+the [01_EDTA_results.ipynb](scripts/01_EDTA_results.ipynb) notebook can be used to extract information for fragmented and intact TEs, it also contains a hard-coded list with genome sizes. 
 
 ## TE-gene association
 In the [03_annotation_TEs.ipynb](https://github.com/setri100/brassicaceae_TE_analysis/blob/main/scripts/03_annotations_TEs-.ipynb), the .gff3 files fo **INTACT** fragmented are ignored!) TEs are loaded as well as the .gff3 files from Helixer. In a loop for each contig, TEs are associated to the genes by comparing the start and and of the respecitve annotations. <br />
