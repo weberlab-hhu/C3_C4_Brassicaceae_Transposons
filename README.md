@@ -1,6 +1,7 @@
 # GitHub repository for Triesch *et al*, 2022 - "Transposable elements contribute to the evolution of the glycine shuttle in Brassicaceae"
 
 ## manuscript draft
+Find the manuscript here: https://doi.org/10.1101/2022.12.06.519256
 
 
 
